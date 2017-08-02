@@ -1,3 +1,18 @@
+# about section of ABC
+about:
+  analytics: "A Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu."
+  business: "B Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu."
+  consulting: "C Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu."
+
+
+# social links
+social:
+  facebook : "https://www.facebook.com/juecell/"
+  youtube: "https://www.youtube.com/channel/UCAiMo_wiKzdJd0rPoBlmf3Q"
+  linkedin: "https://in.linkedin.com/company/jadavpur-university-entrepreneurship-cell"
+
+
+# format to enter team stuff in - not used at the moment
 team:
   - {name: "Parry Lage", post: 'CEO', image: '//via.placeholder.com/600x600', bio: "Small bio"}
   - {name: "Bergey Srin", post: 'CEO', image: '//via.placeholder.com/600x600', bio: "Small bio"}

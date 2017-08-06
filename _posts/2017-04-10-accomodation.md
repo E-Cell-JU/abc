@@ -20,4 +20,4 @@ living and poor food quality in messes and present it to FETSU. The
 latter is just a suggestion , as it is one of the ways our report can be put
 to use.
 
-To read the complete report [click here](https://drive.google.com/file/d/0B_oukqLMM_QKQnpqTWJ5LVZlQVU/view).
+To read the complete report [click here](https://drive.google.com/file/d/0B_oukqLMM_QKZnNFN0FENmd3Vk0/view?usp=drivesdk).

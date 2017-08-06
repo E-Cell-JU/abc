@@ -2960,9 +2960,10 @@
 
 	#banner {
 		padding: 12em 0 10em 0;
-		background-image: url('../../images/graph1.gif');
+		background-image: url('../../images/bg.gif');
 		background-position: center center;
 		background-size: cover;
+		background-color: rgb(37, 43, 57);
 		/*background-position: top;*/
 		background-attachment: fixed;
 		background-repeat: no-repeat;

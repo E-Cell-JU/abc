@@ -2756,6 +2756,7 @@
 		#header .logo {
 			color: #ffffff;
 			background-color: rgba(255,255,255,1);
+			transform: scale(1.25);
 			border-radius: 2px;
 			display: inline-block;
 			font-weight: 600;
@@ -2767,6 +2768,19 @@
 			position: absolute;
 			top: 0;
 			font-size: 1em;
+
+		}
+
+		@media screen and (max-width: 720px) { 
+			#header .logo {
+				transform: scale(1);
+			}
+		}
+
+		@media screen and (max-width: 480px) { 
+			#header .logo {
+				transform: scale(0.75);
+			}
 		}
 
 		#header .border-around {
@@ -2785,45 +2799,45 @@
 			font-size: 0.8em;
 		}
 
-			#header a:hover {
-				color: #ffffff;
-				display: inline-block;
-				border-bottom: 5px solid rgba(255,255,255,1.0);
-				-webkit-transition: 0.5s ease;
-				transition: 0.5s ease;
+		#header a:hover {
+			color: #ffffff;
+			display: inline-block;
+			border-bottom: 5px solid rgba(255,255,255,1.0);
+			-webkit-transition: 0.5s ease;
+			transition: 0.5s ease;
+		}
+
+		#header a:last-child {
+			padding-right: 0;
+		}
+
+		#header a.navPanelToggle {
+			display: none;
+			text-decoration: none;
+			height: 4em;
+			width: 4em;
+			z-index: 10003;
+		}
+
+			#header a.navPanelToggle .fa {
+				font-size: 1.25em;
 			}
 
-			#header a:last-child {
-				padding-right: 0;
-			}
+			@media screen and (max-width: 980px) {
 
-			#header a.navPanelToggle {
-				display: none;
-				text-decoration: none;
-				height: 4em;
-				width: 4em;
-				z-index: 10003;
-			}
-
-				#header a.navPanelToggle .fa {
-					font-size: 1.25em;
-				}
-
-				@media screen and (max-width: 980px) {
-
-					#header a.navPanelToggle {
-						display: inline-block;
-					}
-
-				}
-
-			@media screen and (max-width: 736px) {
-
-				#header a {
-					padding: 0 0.9em;
+				#header a.navPanelToggle {
+					display: inline-block;
 				}
 
 			}
+
+		@media screen and (max-width: 736px) {
+
+			#header a {
+				padding: 0 0.9em;
+			}
+
+		}
 
 	@media screen and (max-width: 980px) {
 
